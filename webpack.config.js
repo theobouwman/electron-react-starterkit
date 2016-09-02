@@ -2,7 +2,7 @@ var webpack = require('webpack');
 var path = require('path');
 
 var BUILD_DIR = path.resolve(__dirname, 'build/js/');
-var SRC_DIR = path.resolve(__dirname, 'src/js/');
+var SRC_DIR = path.resolve(__dirname, 'src/');
 
 var config = {
     entry: [

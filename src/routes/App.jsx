@@ -5,7 +5,7 @@ export default class App extends React.Component  {
     return (
       <div>
         <ul>
-          <li>item</li>
+          <li>item 123</li>
           <li>item</li>
         </ul>
         <div>

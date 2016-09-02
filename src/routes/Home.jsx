@@ -1,4 +1,5 @@
 import React from 'react'
+import BookMarksList from '../components/BookMarksList'
 
 class Home extends React.Component {
   constructor(props) {
@@ -14,7 +15,10 @@ class Home extends React.Component {
 
   render() {
     return (
-        <div>Home</div>
+        <div>
+          <h4>Home</h4>
+          <BookMarksList />
+        </div>
     )
   }
 };
