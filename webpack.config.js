@@ -29,6 +29,11 @@ var config = {
                 loaders: ['babel-loader'],
                 include: SRC_DIR,
                 exclude: /node_modules/
+            },
+            {
+                test: /\.s?css$/,
+                loaders: ['style', 'css', 'sass'],
+                include: SRC_DIR
             }
         ]
     }
