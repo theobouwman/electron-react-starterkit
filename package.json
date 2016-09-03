@@ -12,6 +12,10 @@
   "author": "Theo Bouwman",
   "license": "MIT",
   "devDependencies": {
+    "sass-loader": "^4.0.1",
+    "style-loader": "^0.13.1",
+    "node-sass": "^3.8.0",
+    "css-loader": "^0.24.0",
     "babel-core": "^6.9.0",
     "babel-loader": "^6.2.4",
     "babel-polyfill": "^6.9.0",
